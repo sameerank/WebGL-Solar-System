@@ -46,8 +46,9 @@ var SolarSystem = React.createClass({
 
       requestAnimationFrame( animate );
       parent.rotation.y += 0.01;
-      mercuryPivot.rotation.y += 0.02;
-      marsPivot.rotation.y += 0.01;
+      mercuryPivot.rotation.y += (0.01 * 1.174) - 0.01;
+      venusPivot.rotation.y += (0.01 * 1.607) - 0.01;
+      marsPivot.rotation.y += (0.01 * 0.802) - 0.01;
       earthMoonPivot.rotation.y += 0.05;
       marsMoonPivots.forEach( function (pivot) { pivot.rotation.y += 0.05; } )
       controls.update();
