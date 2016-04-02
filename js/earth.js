@@ -12,7 +12,7 @@ Earth.prototype.makeMesh = function () {
   } );
 
 	var mesh = new THREE.Mesh( geometry, material );
-	mesh.position.z = 12;
+	mesh.position.z = 15;
 
   return mesh;
 };

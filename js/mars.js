@@ -12,7 +12,7 @@ Mars.prototype.makeMesh = function () {
   } );
 
 	var mesh = new THREE.Mesh( geometry, material );
-	mesh.position.z = 15;
+	mesh.position.z = 20.24;
 
   return mesh;
 };

@@ -11,7 +11,7 @@ Venus.prototype.makeMesh = function () {
   } );
 
 	var mesh = new THREE.Mesh( geometry, material );
-	mesh.position.z = 9;
+	mesh.position.z = 12.23;
 
   return mesh;
 };

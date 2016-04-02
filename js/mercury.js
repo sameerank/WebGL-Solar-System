@@ -11,7 +11,7 @@ Mercury.prototype.makeMesh = function () {
   } );
 
 	var mesh = new THREE.Mesh( geometry, material );
-	mesh.position.z = 7;
+	mesh.position.z = 8.87;
 
   return mesh;
 };
